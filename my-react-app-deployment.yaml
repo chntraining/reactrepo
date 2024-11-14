@@ -13,9 +13,8 @@ spec:
         app: my-react-app
     spec:
       containers:
-      - name: react-k8-container
-        image: deepikkaa20/my-react-app:latest
-        imagePullPolicy: IfNotPresent
-        ports:
-        - containerPort: 80
-            
+        - name: react-k8-container
+          image: deepikkaa20/reactrepo:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80

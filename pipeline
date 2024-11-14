@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Checkout the code inside the 'my-react-app' subfolder
                 dir('my-react-app') {
-                    git url: 'https://github.com/chntraining/my-react-app.git', branch: 'main'
+                    git url: 'https://github.com/chntraining/reactrepo.git', branch: 'main'
                 }
             }
         }
